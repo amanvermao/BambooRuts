@@ -1,0 +1,57 @@
+#blurcard{
+  background: #D9D9D980; /* Semi-transparent background */
+  backdrop-filter: blur(2.2px); /* Apply blur effect */
+  -webkit-backdrop-filter: blur(2.2px); /* For Safari support */
+  box-shadow: inset 0px 1px 4px 0px #FFFFFFCC; /* Inner white shadow */
+  border-radius: 50px;
+  height: 230px;
+  width: 100%;
+}
+#blurcard p{
+ font-size: 45px;
+ font-weight: 900; 
+ line-height: 60px;
+width: 500px;
+}
+#BlurCardArrow .ArrowOutward{
+font-size: 50px;
+}
+#BlurCardArrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    right: 20px;
+    height: 100px;
+    width: 100px;
+    border: 6px solid white;
+  }
+
+#SecondFrameImg{
+  background-color: transparent;
+  border: none;
+  border-radius: 50px;
+}
+
+#right-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top-text{
+  padding-top: 50px;
+}
+.top-text h1{
+ line-height: 70px;
+ font-size: 65px;
+ padding-bottom: 40px;
+}
+.top-text p{
+font-weight: 900;
+width: 395px;
+ }
+
+.bottom-text p{
+ font-weight: bold;
+  padding-top: 100px;
+  font-size: 25px;
+}
