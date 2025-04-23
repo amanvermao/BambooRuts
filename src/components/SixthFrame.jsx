@@ -7,17 +7,18 @@ import imgFive from '../assets/SixthFrameImages/imgFive.png'
 import imgSix from '../assets/SixthFrameImages/imgSix.png'
 import imgSeven from '../assets/SixthFrameImages/imgSeven.png'
 import imgEight from '../assets/SixthFrameImages/imgEight.png'
+import imgNine from '../assets/SixthFrameImages/imgNine.png'
 
 const products = [
   { img: imgOne, alt: "Amla Candy" },
-  { img: imgFive, alt: "Shipmozo" },
-  { img: imgSix, alt: "Snack Truth" },
-  { img: imgSeven, alt: "More Product 1" },
-  { img: imgEight, alt: "More Product 2" },
-  { img: imgOne, alt: "More Product 3" },
-  { img: imgTwo, alt: "Rajma Chawal" },
-  { img: imgThree, alt: "Potato Chips" },
   { img: imgFour, alt: "Filtered Coffee" },
+  { img: imgEight, alt: "Zumi" },
+  { img: imgTwo, alt: "Rajma Chawal" },
+  { img: imgFive, alt: "shipmozo" },
+  { img: imgNine, alt: "Dental" },
+  { img: imgThree, alt: "Potato Chips" },
+  { img: imgSix, alt: "Snack Truth" },
+  { img: imgSeven, alt: "famveg" },
 ];
 
 const SixthFrame = () => {
