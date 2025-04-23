@@ -5,13 +5,13 @@ import { useInView } from "react-intersection-observer";
 const services = [
   { name: "Motion Graphic", top: "83%", left: "15%", rotate: "-25deg" },
   { name: "Storyboard", top: "73%", left: "37%", rotate: "-3deg" },
-  { name: "Visual Effect", top: "90%", left: "33%", rotate: "8deg" },
+  { name: "Visual Effect", top: "89%", left: "33%", rotate: "8deg" },
   { name: "UI / UX", top: "72%", left: "55%", rotate: "5deg" },
-  { name: "Web Design", top: "58%", left: "60%", rotate: "5deg" },
+  { name: "Web Design", top: "59%", left: "60%", rotate: "5deg" },
   { name: "Graphic Design", top: "88%", left: "51%", rotate: "10deg" },
-  { name: "3D Modeling", top: "73%", left: "68%", rotate: "0deg" },
+  { name: "Branding", top: "75%", left: "67%", rotate: "0deg" },
   { name: "Digital Manipulation", top: "86%", left: "74%", rotate: "-9deg" },
-  { name: "Photography & Videography", top: "52%", left: "65%", rotate: "25deg" },
+  { name: "Photography & Videography", top: "53%", left: "65%", rotate: "22deg" },
 ];
 
 const ThirdFrame = () => {

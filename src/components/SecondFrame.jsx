@@ -37,28 +37,6 @@ const SecondFrame = () => {
     </div>
 
 <div className="bottom-text">
-    <div className="flex flex-wrap gap-2">
-      {[
-        "CHILL",
-        "LO-FILOVER",
-        "COFFEE",
-        "LOVE READING BOOK",
-        "AMERICAN BURGER",
-        "MATCHA",
-      ].map((label, idx) => (
-        <span
-          key={idx}
-          className={`font-[700] text-md  px-4 py-1 rounded-full border border-white/40 font-medium ${
-            label === "MATCHA"
-              ? "bg-green-400 text-black shadow-md"
-              : "text-white hover:bg-white/10 transition"
-          }`}
-        >
-          {label}
-        </span>
-      ))}
-    </div>
-
     <p className="uppercase tracking-wider font-semibold text-white">
       Inspired by Everyday
     </p>

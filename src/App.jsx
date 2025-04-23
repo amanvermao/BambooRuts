@@ -1,24 +1,17 @@
+import { Outlet } from 'react-router-dom'
 import './App.css'
-import ThirdFrame from './components/ThirdFrame'
-import FirstFrame from './components/FirstFrame'
-import FourthFrame from './components/FourthFrame'
-import FifthFrame from './components/FifthFrame'
-import SecondFrame from './components/SecondFrame'
-import SixthFrame from './components/SixthFrame'
-import FinalFrame from './components/FinalFrame'
+import Header from './components/Header'
+import Footer from './components/Footer'
+
 
 function App() {
  
 
   return (
    <>
-<FirstFrame/>
-<SecondFrame/>
-<ThirdFrame/>
-<FourthFrame/>
-<FifthFrame/>
-<SixthFrame/>
-<FinalFrame/>
+<Header/>
+<Outlet/>
+<Footer/>
 
    </>
   )
