@@ -1,20 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { div } from "framer-motion/client";
-import sliderone from "../../../assets/Website/sliderOne.png";
-import slidertwo from "../../../assets/Website/slidertwo.jpg";
-import sliderthree from "../../../assets/Website/sliderthree.jpg";
-import sliderfour from "../../../assets/Website/sliderfour.png";
-import sliderfive from "../../../assets/Website/sliderfive.jpg";
-import slidersix from "../../../assets/Website/slidersix.jpg";
 
 const images = [
-  sliderone,
-  slidertwo,
-  sliderthree,
-  sliderfour,
-  sliderfive,
-  slidersix,
+  "/public/assets/sliderOne.png",
+  "/public/assets/slidertwo.jpg",
+  "/public/assets/sliderthree.jpg",
+  "/public/assets/sliderfour.png",
+  "/public/assets/sliderfive.jpg",
+  "/public/assets/slidersix.jpg",
 ];
 
 const FrameThree = () => {
