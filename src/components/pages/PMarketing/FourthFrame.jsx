@@ -3,10 +3,7 @@ import '../../../App.css'
 import imgone from '../../../assets/PMarketing/imgOne.png'
 import imgtwo from '../../../assets/PMarketing/imgThird.png'
 import imgthree from '../../../assets/PMarketing/imgFourth.png'
-
-import bgline from '../../../assets/PMarketing/lineone.png'
-import bglinetwo from '../../../assets/PMarketing/lineOne.png'
-
+import bgline from '../../../assets/PMarketing/lineOne.png'
 import imgfour from '../../../assets/PMarketing/imgSix.png'
 import imgfive from '../../../assets/PMarketing/imgeight.png'
 import imgsix from '../../../assets/PMarketing/imgFifth.png'
@@ -101,7 +98,7 @@ one month</span>
     <img src={imgseven} alt="" />
   </div>
   <div className="bg-line-two">
-    <img className='bg-line-two' src={bglinetwo} alt="" />
+    <img className='bg-line-two' src={bgline} alt="" />
   </div>
 </div>
 
