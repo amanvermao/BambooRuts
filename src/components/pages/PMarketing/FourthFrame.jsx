@@ -3,7 +3,7 @@ import '../../../App.css'
 import imgone from '../../../assets/PMarketing/imgOne.png'
 import imgtwo from '../../../assets/PMarketing/imgThird.png'
 import imgthree from '../../../assets/PMarketing/imgFourth.png'
-import bgline from '../../../assets/PMarketing/Lineone.png'
+import lineone from '../../../assets/PMarketing/Lineone.png'
 import imgfour from '../../../assets/PMarketing/imgSix.png'
 import imgfive from '../../../assets/PMarketing/imgeight.png'
 import imgsix from '../../../assets/PMarketing/imgFifth.png'
@@ -50,7 +50,7 @@ one month</span>
 
 </div>
 <div className="frame-bg-line-wrapper">
-<img src={bgline}  className="frame-bg-line" alt="" />
+<img src={lineone}  className="frame-bg-line" alt="" />
 </div>
 
 {/* second case study */}
@@ -98,7 +98,7 @@ one month</span>
     <img src={imgseven} alt="" />
   </div>
   <div className="bg-line-two">
-    <img className='bg-line-two' src={bgline} alt="" />
+    <img className='bg-line-two' src={lineone} alt="" />
   </div>
 </div>
 
