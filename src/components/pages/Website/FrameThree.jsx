@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 import { div } from "framer-motion/client";
 
 const images = [
-  "/public/assets/sliderOne.png",
-  "/public/assets/slidertwo.jpg",
-  "/public/assets/sliderthree.jpg",
-  "/public/assets/sliderfour.png",
-  "/public/assets/sliderfive.jpg",
-  "/public/assets/slidersix.jpg",
+  "public/assets/sliderOne.png",
+  "public/assets/slidertwo.jpg",
+  "public/assets/sliderthree.jpg",
+  "public/assets/sliderfour.png",
+  "public/assets/sliderfive.jpg",
+  "public/assets/slidersix.jpg",
 ];
 
 const FrameThree = () => {
