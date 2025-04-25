@@ -36,7 +36,7 @@ const SixthFrame = () => {
         <h1 className="text-[40px] md:text-6xl text-center font-semibold mb-6">
           A Visual Symphony of Creativity
         </h1>
-        <p className="text-base w-[600px] md:text-lg font-medium max-w-3xl mx-auto">
+        <p id='sixth-frame-p' className="text-base w-[600px] md:text-lg font-medium max-w-3xl mx-auto">
           Step into our world of design, where imagination meets precision.
           This gallery showcases a collection of projects that blend art, innovation, and storytelling,
           each crafted to leave a lasting impression.

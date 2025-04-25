@@ -37,15 +37,33 @@ const ThirdFrame = () => {
   return (
     <>
       <div className="pt-[60px] max-w-7xl mx-auto">
-        <h1 className="text-left text-4xl md:text-6xl mb-6 leading-relaxed">
+        <h1 id="third-frame-text" className="text-left text-4xl md:text-6xl p-2 mb-6 leading-relaxed">
           We transform ideas into compelling <br className="hidden md:block" />
           visuals that leave a lasting impact.
         </h1>
       </div>
 
+      {/* Mobile Services (Visible only on mobile view) */}
+      <div className="block md:hidden p-6 bg-[#3dd800] rounded-[40px] max-w-7xl mx-auto">
+      <h2 className="text-white text-lg md:text-xl font-semibold mb-6">
+        We transform ideas into compelling visuals that leave a lasting impact. From bold graphic designs to intricate 3D modeling, our work bridges creativity and functionality.
+      </h2>
+      <div className="space-y-4">
+        {services.map((service, index) => (
+          <div
+            key={index}
+            className="bg-white text-[#00aa00] px-7 py-5 font-bold rounded-full text-xl md:text-3xl w-full mx-auto"
+          >
+            {service.name}
+          </div>
+        ))}
+      </div>
+    </div>
+
+      {/* Original Services (Hidden on mobile view) */}
       <section
         ref={ref}
-        className="relative bg-[#3dd800] rounded-[40px] p-8 max-w-7xl mx-auto h-[600px] mt-20 shadow-2xl overflow-visible"
+        className="relative bg-[#3dd800] rounded-[40px] p-8 max-w-7xl mx-auto h-[600px] mt-20 shadow-2xl overflow-visible md:block hidden"
       >
         {/* Text */}
         <div className="absolute top-10 left-10 max-w-lg z-10">

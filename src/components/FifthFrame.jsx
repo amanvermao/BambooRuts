@@ -2,22 +2,20 @@ import React, { useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 import imgOne from '../assets/FifthFrameImage/imgOne.png';
 import '../App.css';
+import './Responsive/MobileResponsive.css'
 
 const timeline = [
   {
     title: "Foundation of Creativity",
     desc: "Started as a curious mind, diving into the world of design. Experimented with various styles and techniques to build a solid foundation.",
-    duration: "2020 - 2024",
   },
   {
     title: "Growth and Innovation",
     desc: "Refined my craft by embracing new technologies and approaches. Worked on impactful projects that pushed the boundaries of traditional design.",
-    duration: "2020 - 2024",
   },
   {
     title: "Mastering the Art",
-    desc: "Evolved into a professional designer, delivering exceptional results for clients worldwide. Focused on creating immersive visuals and storytelling.",
-    duration: "2020 - 2024",
+    desc: "Evolved into a professional designer, delivering exceptional results for clients worldwide. Focused on creating immersive visuals and storytelling.", 
   },
 ];
 
@@ -58,14 +56,14 @@ const FifthFrame = () => {
 
   return (
     <>
-      <div className="min-h-screen text-white flex items-center justify-center">
+      <div id="fifth-frame-wrapper" className="min-h-screen text-white flex items-center justify-center">
         <div>
-          <div className="pt[60px] pb-[60px] text-3xl gap-[10px] md:text-5xl font-semibold mb-6">
+          <div id="fifth-frame-text" className="pt[60px] pb-[60px] text-3xl gap-[10px] md:text-5xl font-semibold mb-6">
             <h1 className="pb-[5px]">Every masterpiece</h1>
             <br className="hidden md:block" />
             <h1>begins with a single step</h1>
           </div>
-          <div className="mt-8 pb-[100px]">
+          <div id="fifth-frame-img" className="mt-8 pb-[100px]">
             <img
               src={imgOne}
               alt="VR Man"
@@ -81,7 +79,7 @@ const FifthFrame = () => {
           className="min-h-screen w-[82%] text-white flex flex-col lg:flex-row items-start justify-center"
         >
           {/* Left Side Text */}
-          <div className="lg:w-1/2">
+          <div id="fifth-frame-second-text" className="lg:w-1/2">
             <p className="text-lg text-white max-w-md">
             Every masterpiece begins with a single step.
               From my early days of exploring creativity to mastering the art of design, this timeline reflects the evolution of my passion, skills, and vision.
@@ -89,10 +87,11 @@ const FifthFrame = () => {
           </div>
 
           {/* Right Side Timeline */}
-          <div className="relative lg:w-1/2">
+          <div id="fifth-frame-right-side-comopnents" className="relative lg:w-1/2">
             {/* Vertical Line Wrapper with limited height */}
-            <div className="absolute left-1/2 top-0 transform -translate-x-1/2 h-[560px] w-[2px] overflow-hidden">
+            <div  id="fifth-frame-line" className="absolute left-1/2 top-0 transform -translate-x-1/2 h-[500px] w-[2px] overflow-hidden">
               <motion.div
+             
                 className="w-full"
                 style={{
                   backgroundColor: "#3dd800"
@@ -108,6 +107,7 @@ const FifthFrame = () => {
                 <div key={index} className="relative">
                   {/* Dot */}
                   <motion.div
+                  id="fifth-frame-dot"
                     className="w-4 h-4 rounded-full absolute"
                     style={{       
                       left: "49%",
@@ -132,11 +132,8 @@ const FifthFrame = () => {
                     animate={controls}
                     variants={contentVariants}
                   >
-                    <h3 className="text-xl font-semibold mb-1">{item.title}</h3>
-                    <p className="text-gray-400 mb-2">{item.desc}</p>
-                    <span style={{backgroundColor:"#3dd800"}} className="text-black px-4 py-1 rounded-full text-sm font-semibold inline-block">
-                      {item.duration}
-                    </span>
+                    <h3 id="fifth-frame-content" className="text-xl font-semibold mb-1">{item.title}</h3>
+                    <p id="fifth-frame-content" className="text-gray-400 mb-2">{item.desc}</p>
                   </motion.div>
                 </div>
               ))}

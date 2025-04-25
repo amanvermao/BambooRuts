@@ -1,0 +1,50 @@
+@media only screen and (max-width: 768px){
+
+#second-frame-p{
+    min-width: 300px;
+}
+#second-frame-text-2{
+    text-align: center;
+    font-size: 40px;
+    line-height: 60px;
+}
+#third-frame-text{
+  padding-left: 30px;
+  padding-top: 0px;
+  position: relative;
+  bottom: 40px;
+}
+ #fifth-frame-wrapper{
+ min-height: 80vh;
+ }
+
+ #fifth-frame-text{
+    padding: 20px;
+ }
+ #fifth-frame-img{
+    padding: 10px;
+ }
+ #fifth-frame-img img{
+  height: 300px;
+ }
+ #fifth-frame-second-text{
+    padding-bottom: 30px;
+ }
+ #fifth-frame-right-side-comopnents{
+    position: relative;
+    left:-100px;
+    width: 100%;
+ }
+ #fifth-frame-content{
+    width: 200px;
+ }
+ #fifth-frame-dot{
+   margin-left: -5px;
+ }
+ #fifth-frame-line{
+    min-height: 650px;
+ }
+ #sixth-frame-p{
+    width: 300px;
+ }
+}

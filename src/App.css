@@ -1,59 +1,240 @@
-#blurcard{
-  background: #D9D9D980; /* Semi-transparent background */
-  backdrop-filter: blur(2.2px); /* Apply blur effect */
-  -webkit-backdrop-filter: blur(2.2px); /* For Safari support */
-  box-shadow: inset 0px 1px 4px 0px #FFFFFFCC; /* Inner white shadow */
+#blurcard {
+  background: #D9D9D980;
+  backdrop-filter: blur(2.2px);
+  -webkit-backdrop-filter: blur(2.2px);
+  box-shadow: inset 0px 1px 4px 0px #FFFFFFCC;
   border-radius: 50px;
   height: 230px;
   width: 100%;
 }
-#blurcard p{
- font-size: 45px;
- font-weight: 900; 
- line-height: 60px;
-width: 500px;
+
+#BlurCardArrow .ArrowOutward {
+  font-size: 50px;
 }
-#BlurCardArrow .ArrowOutward{
-font-size: 50px;
-}
-#BlurCardArrow{
+#BlurCardArrow {
   display: flex;
   justify-content: center;
   align-items: center;
-    right: 20px;
-    height: 100px;
-    width: 100px;
-    border: 6px solid white;
-  }
+  border: 6px solid white;
+}
 
-#SecondFrameImg{
+#SecondFrameImg {
   background-color: transparent;
   border: none;
   border-radius: 50px;
 }
 
+
 #right-text {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
-.top-text{
-  padding-top: 50px;
-}
-.top-text h1{
- line-height: 70px;
- font-size: 65px;
- padding-bottom: 40px;
-}
-.top-text p{
-font-weight: 900;
-width: 395px;
- }
 
-.bottom-text p{
- font-weight: bold;
-  padding-top: 100px;
-  font-size: 25px;
+.top-text {
+  padding-top: 20px;
 }
+
+.top-text h1 {
+  line-height: 1.2;
+}
+
+.top-text p {
+  font-weight: 700;
+}
+
+.bottom-text p {
+  font-weight: 900;
+  font-size: 30px;
+}
+
+
+
+/* performance marketing css */
+
+/* frame two */
+
+.baneer-wraper{
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+.banner{
+  height: 750px;
+  width: 750px;
+  border-radius: 97px;
+}
+
+/* frame three */
+.thirdframe-wrapper{
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 70px;
+  color: black;
+  position: relative;
+
+}
+.thirdframe-heading{
+font-size: 60px;
+font-weight: 800;
+text-transform: uppercase;
+text-align: center;
+}
+.infographics-wrapper{
+  position: relative;
+  bottom: 100px;
+
+}
+.infographic-img{
+
+}
+.lineone-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  top:650px;
+  
+}
+
+.lineone {
+  width: 200vw; /* makes the line extend far beyond the screen */
+  max-width: none;
+  height: 700px;
+  
+}
+
+/* frame four */
+
+.fourth-frame-wrapper {
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: left;
+ color: black;
+ flex-direction: column;
+ overflow: hidden;
+ 
+}
+
+.frame-text-wrapper{
+  padding: 40px;
+  padding-left: 100px;
+  position: relative;
+
+}
+.frame-text-wrapper h1{
+font-size: 54px;
+font-weight: 800;
+}
+.text-wrapper{
+  width: 1057px;
+  padding-bottom: 30px;
+}
+.text-wrapper h2{
+font-size: 30px;
+font-weight: 800;
+}
+.text-wrapper span{
+font-size: 30px;
+font-weight: 400px;
+}
+.text-three{
+  width:700px;
+}
+
+.frame-images-wrapper{
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  position: absolute;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.img-werapper{
+  display: flex;
+  justify-content: flex-end;
+align-items: right;
+
+
+}
+
+.frmae-img-one{
+  height: 382.2px;
+  position: relative;
+  bottom: 111.0px;
+}
+
+
+.frmae-img-two{
+  height: 461.6px;
+  width: 608.0px;
+  position: relative;
+  bottom: 310.4px;
+}
+
+.frmae-img-three{
+  position: absolute;
+  top: 144.6px;
+  height: 678.4px;
+  width: 1212.4px;
+}
+.frame-bg-line-wrapper{
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0px;
+  height: 800px;
+  
+}
+.frame-bg-line{
+  width: 100vw; 
+  max-width: none;
+  
+}
+.frame-images-wrapper-2{
+  position: absolute;
+  bottom: 100px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: end;
+width: 100vw;
+gap: 20px;
+
+}
+.frameimgfour{
+
+}
+
+.frameimgfive{
+
+}
+
+.bottom-graphs{
+position: relative;
+
+}
+.bottom-img{
+  display: flex;
+  justify-content: space-between;
+
+}
+.bg-line-two{
+  width: 100vw; 
+  max-width: none;
+  position: absolute;
+  bottom: 0;
+  height: 700px;
+
+}
+
+
+
 
 

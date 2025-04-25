@@ -5,12 +5,12 @@ import imgTwo from '../../../assets/PhotoShoot/foodtwo.png'
 
 const ThirdFrame = () => {
   return (
-    <div className="relative w-full bg-white pt-[60px] pb-[60px] py-4 px-6 flex justify-center items-start min-h-screen overflow-hidden">
+    <div className="relative w-full bg-white pb-[60px] py-4 px-6 flex justify-center items-start min-h-screen overflow-hidden">
       {/* Background Line */}
       <img
         src={linetwo}
         alt="Line"
-        className="absolute top-[150px] left-0 w-full h-[700px] z-0"
+        className="absolute top-[200px] left-0 w-full h-[700px] z-0"
       />
 
       {/* Content Wrapper */}
@@ -29,7 +29,7 @@ const ThirdFrame = () => {
         {/* Right Column */}
         <div className="flex flex-col items-center mt-16">
           {/* REEL Button */}
-          <div className=" text-black border mb-40  text-center flex justify-center items-center border-black px-3 py-1 text-[35px] font-extrabold rounded-[30px]">
+          <div className=" text-black border mb-40  text-center flex justify-center items-center border-black py-6 px-6 text-[60px] font-extrabold rounded-[59px]">
             REEL
           </div>
 
