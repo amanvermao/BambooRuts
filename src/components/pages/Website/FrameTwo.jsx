@@ -26,6 +26,7 @@ const FrameTwo = () => {
   />
 
 <img
+ id='website-lines'
     src={lineone}
     alt="Background Line"
     className="absolute top-[3420px] left-0 w-[100vw] z-0"

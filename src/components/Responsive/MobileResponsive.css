@@ -53,6 +53,9 @@
 #webiste-frame-two{
    height: 40px;
 }
+#website-lines{
+   display: none;
+}
 #jeans-two{
    width: 300px;
   margin-bottom: 70px;
