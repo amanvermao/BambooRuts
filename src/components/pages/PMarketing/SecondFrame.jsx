@@ -5,7 +5,7 @@ import banner from '../../../assets/PMarketing/banner.png'
 const SecondFrame = () => {
   return (
     <div className='baneer-wraper'>
-      <img src={banner} className='banner' alt="" />
+      <img id='marketing-banner' src={banner} className='banner' alt="" />
     </div>
   )
 }

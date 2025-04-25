@@ -8,7 +8,7 @@ const FrameOne = () => {
   return (
     <>
    <div
-  className="min-h-screen flex items-center justify-center px-4 bg-black bg-cover bg-center"
+  className="min-h-[50vh] sm:min-h-screen flex items-center justify-center px-4 bg-black bg-cover bg-center"
   style={{ backgroundImage: `url(${banner})` }}
 >
   {/* Overlay */}
@@ -26,8 +26,6 @@ const FrameOne = () => {
     </h1>
   </div>
 </div>
-
-
 
 
 <div className="bg-white w-full flex flex-col items-center relative">

@@ -15,8 +15,8 @@ const FrameThree = () => {
   const duplicatedImages = [...images, ...images]; // for seamless loop
 
   return (
-    <div className="overflow-hidden">
-    <div className="relative w-full pt-[400px] pb-24  -rotate-[5deg] bg-white py-10">
+    <div  className="overflow-hidden">
+    <div id="website-frame-three" className="relative w-full pt-[400px] pb-24  -rotate-[5deg] bg-white py-10">
       {/* Top Row - slides to left */}
       <motion.div
         className="flex gap-10 w-max px-10 mb-10"
@@ -29,6 +29,7 @@ const FrameThree = () => {
       >
         {duplicatedImages.map((src, index) => (
           <div
+          id="slider-imgs"
             key={`top-${index}`}
             className="w-[600px] h-[400px] bg-white rounded-2xl shadow-xl overflow-hidden flex items-center justify-center"
           >
@@ -53,10 +54,12 @@ const FrameThree = () => {
       >
         {duplicatedImages.map((src, index) => (
           <div
+          id="slider-imgs"
             key={`bottom-${index}`}
             className="w-[600px] h-[400px] bg-white rounded-2xl shadow-xl overflow-hidden flex items-center justify-center"
           >
             <img
+            
               src={src}
               alt={`slide-bottom-${index}`}
               className="w-full h-full object-cover"

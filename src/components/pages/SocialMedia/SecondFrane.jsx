@@ -34,7 +34,7 @@ const SecondFrane = () => {
       </section>
       {/* FIRST section */}
 
-    <div className="bg-white pb-20  text-center ">
+    <div id='social-cards' className="bg-white pb-20  text-center ">
       {/* Heading */}
       <h2 className="text-5xl md:text-6xl font-bold mb-4 text-black">
         RAICHURA
@@ -72,14 +72,14 @@ const SecondFrane = () => {
 
     {/* second section */}
 
-    <div className="bg-white pb-20  text-center ">
+    <div id='social-cards' className="bg-white pb-20  text-center ">
       {/* Heading */}
-      <h2 className="text-5xl md:text-6xl font-bold mb-4 text-black">
+      <h2 id='social-center-text' className="text-5xl md:text-6xl font-bold mb-4 text-black">
       HOME DINNER
       </h2>
 
       {/* Paragraph */}
-      <p className="text-black max-w-6xl mx-auto mb-10 text-sm text-[24px] leading-tight font-bold">
+      <p  id='social-center-text' className="text-black max-w-6xl mx-auto mb-10 text-sm text-[24px] leading-tight font-bold">
       The focus on diverse, flavorful dishes with warm, inviting imagery aims to appeal to busy individuals or families seeking easy meal solutions. The objective is to boost interest in food delivery services or inspire home cooking, potentially increasing orders or recipe trials through social media engagement.
       </p>
 
@@ -112,14 +112,14 @@ const SecondFrane = () => {
     {/* third section */}
 
 
-    <div className="bg-white pb-20   text-center ">
+    <div id='social-cards' className="bg-white pb-20   text-center ">
       {/* Heading */}
-      <h2 className="text-5xl md:text-6xl font-bold mb-4 text-black">
+      <h2 id='social-center-text' className="text-5xl md:text-6xl font-bold mb-4 text-black">
       ZUMI
       </h2>
 
       {/* Paragraph */}
-      <p className="text-black max-w-6xl mx-auto mb-10 text-sm text-[24px] leading-tight font-bold">
+      <p id='social-center-text' className="text-black max-w-6xl mx-auto mb-10 text-sm text-[24px] leading-tight font-bold">
       The creatives feature dynamic visuals of coffee and milkshakes, targeting a trendy, youthful audience. The objective is to position Zumi as a go-to beverage brand, encourage repeat purchases, and foster a community of coffee lovers through relatable and aspirational content.
       </p>
 
@@ -148,14 +148,14 @@ const SecondFrane = () => {
       </div>
     </div>
     {/* fourth section */}
-    <div className="bg-white pb-20  text-center ">
+    <div id='social-cards' className="bg-white pb-20  text-center ">
       {/* Heading */}
-      <h2 className="text-5xl md:text-6xl font-bold mb-4 text-black">
+      <h2 id='social-center-text' className="text-5xl md:text-6xl font-bold mb-4 text-black">
       SNACK FUSION
       </h2>
 
       {/* Paragraph */}
-      <p className="text-black max-w-6xl mx-auto mb-10 text-sm text-[24px] leading-tight font-bold">
+      <p id='social-center-text' className="text-black max-w-6xl mx-auto mb-10 text-sm text-[24px] leading-tight font-bold">
       The use of fiery colors and spicy imagery aims to stand out in a competitive snack category. The objective is to attract flavor-seeking consumers, differentiate Snack Fusion from competitors, and drive impulse purchases by creating an emotional connection with the brand’s bold persona.
       </p>
 
@@ -186,14 +186,14 @@ const SecondFrane = () => {
 
     {/* fifth section */}
 
-    <div className="bg-white pb-[70px] text-center">
+    <div id='social-cards' className="bg-white pb-[70px] text-center">
       {/* Heading */}
-      <h2 className="text-5xl md:text-6xl font-bold mb-4 text-black">
+      <h2 id='social-center-text' className="text-5xl md:text-6xl font-bold mb-4 text-black">
       SHIPMOZO
       </h2>
 
       {/* Paragraph */}
-      <p className="text-black max-w-6xl mx-auto mb-10 text-sm text-[24px] leading-tight font-bold">
+      <p id='social-center-text' className="text-black max-w-6xl mx-auto mb-10 text-sm text-[24px] leading-tight font-bold">
       The inclusion of maps and delivery-related graphics aims to assure clients of reliability and global coverage. The objective is to attract e-commerce businesses or individuals, increase inquiries, and establish Shipmozo as a dependable shipping partner in a crowded logistics market.
       </p>
 

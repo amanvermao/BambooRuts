@@ -10,14 +10,14 @@ const ThirdFrame = () => {
       <img
         src={linetwo}
         alt="Line"
-        className="absolute top-[200px] left-0 w-full h-[700px] z-0"
+        className="absolute top-[200px] left-0 w-full h-[700px] z-0 object-contain"
       />
 
       {/* Content Wrapper */}
-      <div className="flex z-10 gap-[50px] items-start">
+      <div className="flex flex-col md:flex-row z-10 gap-[30px] md:gap-[50px] items-center md:items-start w-full max-w-6xl">
         {/* Left Column */}
-        <div className="flex flex-col items-center">
-          <div className=" rounded-xl overflow-hidden">
+        <div className="w-full md:w-1/2 flex flex-col items-center">
+          <div className="rounded-xl overflow-hidden w-full">
             <img
               src={imgTwo}
               alt="Rajma"
@@ -27,18 +27,18 @@ const ThirdFrame = () => {
         </div>
 
         {/* Right Column */}
-        <div className="flex flex-col items-center mt-16">
+        <div className="w-full md:w-1/2 flex flex-col items-center mt-10 md:mt-16">
           {/* REEL Button */}
-          <div className=" text-black border mb-40  text-center flex justify-center items-center border-black py-6 px-6 text-[60px] font-extrabold rounded-[59px]">
+          <div className="text-black border mb-10 md:mb-40 text-center flex justify-center items-center border-black py-4 px-6 text-[30px] md:text-[60px] font-extrabold rounded-[59px]">
             REEL
           </div>
 
-          {/* Spacing */}
-          <div className="mt-6 rounded-xl overflow-hidden">
+          {/* Image */}
+          <div className="rounded-xl overflow-hidden w-full">
             <img
               src={imgNine}
               alt="Bottle"
-              className=" object-cover"
+              className="w-full object-cover"
             />
           </div>
         </div>

@@ -26,14 +26,14 @@ export default function Header() {
 
       {/* Mobile Menu Button */}
       <div className="md:hidden flex items-center">
-        <button onClick={() => setMenuOpen(!menuOpen)} className="text-gray-700">
+        <button onClick={() => setMenuOpen(!menuOpen)} className="text-white">
           {menuOpen ? <CloseIcon fontSize="large" /> : <MenuIcon fontSize="large" />}
         </button>
       </div>
 
       {/* Mobile Menu Drawer */}
       {menuOpen && (
-        <div className="absolute top-[90px] left-0 w-full bg-[#e3dca7] flex flex-col items-center space-y-6 py-6 shadow-md md:hidden">
+        <div className="absolute top-[90px] left-0 w-full bg-[#353535] flex flex-col items-center space-y-6 py-6 shadow-md md:hidden">
           <a href="#" className="hover:text-green-800" onClick={() => setMenuOpen(false)}>Home</a>
           <a href="#" className="hover:text-green-800" onClick={() => setMenuOpen(false)}>About</a>
           <a href="#" className="hover:text-green-800" onClick={() => setMenuOpen(false)}>Services</a>
