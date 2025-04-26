@@ -1,7 +1,7 @@
 import React from 'react'
 import linetwo from '../../../assets/PhotoShoot/linetwo.png'
-import imgNine from '../../../assets/PhotoShoot/foodnine.png'
-import imgTwo from '../../../assets/PhotoShoot/foodtwo.png'
+import reelone from '../../../assets/PhotoShoot/reelone.mp4'
+import reeltwo from '../../../assets/PhotoShoot/reeltwo.mp4'
 
 const ThirdFrame = () => {
   return (
@@ -17,11 +17,14 @@ const ThirdFrame = () => {
       <div className="flex flex-col md:flex-row z-10 gap-[30px] md:gap-[50px] items-center md:items-start w-full max-w-6xl">
         {/* Left Column */}
         <div className="w-full md:w-1/2 flex flex-col items-center">
-          <div className="rounded-xl overflow-hidden w-full">
-            <img
-              src={imgTwo}
-              alt="Rajma"
-              className="w-full h-full object-cover"
+          <div className="rounded-[50px] shadow-2xl overflow-hidden w-full">
+            <video
+              src={reelone}
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover shadow-2xl rounded-[50px]"
             />
           </div>
         </div>
@@ -33,12 +36,15 @@ const ThirdFrame = () => {
             REEL
           </div>
 
-          {/* Image */}
-          <div className="rounded-xl overflow-hidden w-full">
-            <img
-              src={imgNine}
-              alt="Bottle"
-              className="w-full object-cover"
+          {/* Video */}
+          <div className="rounded-[50px] shadow-2xl overflow-hidden w-full">
+            <video
+              src={reeltwo}
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full object-cover shadow-2xl rounded-[50px]"
             />
           </div>
         </div>
